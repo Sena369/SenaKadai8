@@ -8,5 +8,7 @@
 import Foundation
 
 final class ValueModel {
-    var value: Float?
+    func floatToString(value: Float) -> String {
+        String(value)
+    }
 }

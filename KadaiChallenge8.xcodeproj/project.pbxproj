@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E9F1DAC71FEDDA5B67AAD5F /* Pods_KadaiChallenge8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7BD45510B3527FAB3914C2 /* Pods_KadaiChallenge8.framework */; };
 		D34F169F28191C1F002E0159 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F169E28191C1F002E0159 /* Value.swift */; };
 		D352B32D2814DF570015D017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352B32C2814DF570015D017 /* AppDelegate.swift */; };
 		D352B32F2814DF570015D017 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352B32E2814DF570015D017 /* SceneDelegate.swift */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A7BD45510B3527FAB3914C2 /* Pods_KadaiChallenge8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KadaiChallenge8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C7D887CA7FA18596EDC5CB /* Pods-KadaiChallenge8.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiChallenge8.release.xcconfig"; path = "Target Support Files/Pods-KadaiChallenge8/Pods-KadaiChallenge8.release.xcconfig"; sourceTree = "<group>"; };
 		D34F169E28191C1F002E0159 /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
 		D352B3292814DF570015D017 /* KadaiChallenge8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KadaiChallenge8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D352B32C2814DF570015D017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		D352B33A2814DF590015D017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D352B3452814E2610015D017 /* Item1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item1ViewController.swift; sourceTree = "<group>"; };
 		D352B3472814E2700015D017 /* Item2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item2ViewController.swift; sourceTree = "<group>"; };
+		EA51E9447B081FCCC4081772 /* Pods-KadaiChallenge8.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiChallenge8.debug.xcconfig"; path = "Target Support Files/Pods-KadaiChallenge8/Pods-KadaiChallenge8.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,12 +39,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9F1DAC71FEDDA5B67AAD5F /* Pods_KadaiChallenge8.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C34F7311F05056406CDEA778 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA51E9447B081FCCC4081772 /* Pods-KadaiChallenge8.debug.xcconfig */,
+				87C7D887CA7FA18596EDC5CB /* Pods-KadaiChallenge8.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D34F16A028191C26002E0159 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +68,8 @@
 			children = (
 				D352B32B2814DF570015D017 /* KadaiChallenge8 */,
 				D352B32A2814DF570015D017 /* Products */,
+				C34F7311F05056406CDEA778 /* Pods */,
+				F51E39FEEF39674B4C318F2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,16 +85,40 @@
 			isa = PBXGroup;
 			children = (
 				D34F16A028191C26002E0159 /* Model */,
+				D367BACB281A2CCF00DA7914 /* View */,
+				D367BACC281A2CDD00DA7914 /* Controller */,
 				D352B32C2814DF570015D017 /* AppDelegate.swift */,
-				D352B3452814E2610015D017 /* Item1ViewController.swift */,
-				D352B3472814E2700015D017 /* Item2ViewController.swift */,
 				D352B32E2814DF570015D017 /* SceneDelegate.swift */,
-				D352B3322814DF570015D017 /* Main.storyboard */,
 				D352B3352814DF590015D017 /* Assets.xcassets */,
 				D352B3372814DF590015D017 /* LaunchScreen.storyboard */,
 				D352B33A2814DF590015D017 /* Info.plist */,
 			);
 			path = KadaiChallenge8;
+			sourceTree = "<group>";
+		};
+		D367BACB281A2CCF00DA7914 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D352B3322814DF570015D017 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D367BACC281A2CDD00DA7914 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D352B3452814E2610015D017 /* Item1ViewController.swift */,
+				D352B3472814E2700015D017 /* Item2ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F51E39FEEF39674B4C318F2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A7BD45510B3527FAB3914C2 /* Pods_KadaiChallenge8.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D352B33D2814DF590015D017 /* Build configuration list for PBXNativeTarget "KadaiChallenge8" */;
 			buildPhases = (
+				FB360A37D1C1692A7D9EF5F7 /* [CP] Check Pods Manifest.lock */,
 				D352B3252814DF570015D017 /* Sources */,
 				D352B3262814DF570015D017 /* Frameworks */,
 				D352B3272814DF570015D017 /* Resources */,
+				D367BACD281A310C00DA7914 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -146,6 +188,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D367BACD281A310C00DA7914 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n${PODS_ROOT}/SwiftLint/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		FB360A37D1C1692A7D9EF5F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KadaiChallenge8-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D352B3252814DF570015D017 /* Sources */ = {
@@ -298,6 +382,7 @@
 		};
 		D352B33E2814DF590015D017 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA51E9447B081FCCC4081772 /* Pods-KadaiChallenge8.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +410,7 @@
 		};
 		D352B33F2814DF590015D017 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C7D887CA7FA18596EDC5CB /* Pods-KadaiChallenge8.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
