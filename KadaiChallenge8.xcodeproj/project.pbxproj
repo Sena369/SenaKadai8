@@ -16,6 +16,7 @@
 		D352B3392814DF590015D017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D352B3372814DF590015D017 /* LaunchScreen.storyboard */; };
 		D352B3462814E2610015D017 /* Item1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352B3452814E2610015D017 /* Item1ViewController.swift */; };
 		D352B3482814E2700015D017 /* Item2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352B3472814E2700015D017 /* Item2ViewController.swift */; };
+		E58875C2281CEDCA00F098C8 /* ModelLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58875C1281CEDCA00F098C8 /* ModelLocator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D352B33A2814DF590015D017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D352B3452814E2610015D017 /* Item1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item1ViewController.swift; sourceTree = "<group>"; };
 		D352B3472814E2700015D017 /* Item2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item2ViewController.swift; sourceTree = "<group>"; };
+		E58875C1281CEDCA00F098C8 /* ModelLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLocator.swift; sourceTree = "<group>"; };
 		EA51E9447B081FCCC4081772 /* Pods-KadaiChallenge8.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiChallenge8.debug.xcconfig"; path = "Target Support Files/Pods-KadaiChallenge8/Pods-KadaiChallenge8.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 				D367BACC281A2CDD00DA7914 /* Controller */,
 				D352B32C2814DF570015D017 /* AppDelegate.swift */,
 				D352B32E2814DF570015D017 /* SceneDelegate.swift */,
+				E58875C1281CEDCA00F098C8 /* ModelLocator.swift */,
 				D352B3352814DF590015D017 /* Assets.xcassets */,
 				D352B3372814DF590015D017 /* LaunchScreen.storyboard */,
 				D352B33A2814DF590015D017 /* Info.plist */,
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58875C2281CEDCA00F098C8 /* ModelLocator.swift in Sources */,
 				D352B3482814E2700015D017 /* Item2ViewController.swift in Sources */,
 				D352B32D2814DF570015D017 /* AppDelegate.swift in Sources */,
 				D352B32F2814DF570015D017 /* SceneDelegate.swift in Sources */,
