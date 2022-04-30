@@ -8,7 +8,9 @@
 import Foundation
 
 final class ValueModel {
-    func floatToString(value: Float) -> String {
-        String(value)
+    var count: Float = 0.0
+
+    var countText: String {
+        String(count)
     }
 }
