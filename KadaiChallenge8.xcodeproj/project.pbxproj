@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6E9F1DAC71FEDDA5B67AAD5F /* Pods_KadaiChallenge8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7BD45510B3527FAB3914C2 /* Pods_KadaiChallenge8.framework */; };
+		D3215818281E0F94003F404A /* ModelLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3215817281E0F94003F404A /* ModelLocator.swift */; };
 		D34F169F28191C1F002E0159 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F169E28191C1F002E0159 /* Value.swift */; };
 		D352B32D2814DF570015D017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352B32C2814DF570015D017 /* AppDelegate.swift */; };
 		D352B32F2814DF570015D017 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352B32E2814DF570015D017 /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		2A7BD45510B3527FAB3914C2 /* Pods_KadaiChallenge8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KadaiChallenge8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C7D887CA7FA18596EDC5CB /* Pods-KadaiChallenge8.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiChallenge8.release.xcconfig"; path = "Target Support Files/Pods-KadaiChallenge8/Pods-KadaiChallenge8.release.xcconfig"; sourceTree = "<group>"; };
+		D3215817281E0F94003F404A /* ModelLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLocator.swift; sourceTree = "<group>"; };
 		D34F169E28191C1F002E0159 /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
 		D352B3292814DF570015D017 /* KadaiChallenge8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KadaiChallenge8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D352B32C2814DF570015D017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				D34F169E28191C1F002E0159 /* Value.swift */,
+				D3215817281E0F94003F404A /* ModelLocator.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3215818281E0F94003F404A /* ModelLocator.swift in Sources */,
 				D352B3482814E2700015D017 /* Item2ViewController.swift in Sources */,
 				D352B32D2814DF570015D017 /* AppDelegate.swift in Sources */,
 				D352B32F2814DF570015D017 /* SceneDelegate.swift in Sources */,

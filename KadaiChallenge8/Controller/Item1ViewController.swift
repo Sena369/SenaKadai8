@@ -8,20 +8,18 @@
 import UIKit
 
 class Item1ViewController: UIViewController {
-    private let valueModel = ValueModel()
-    private let delegate = UIApplication.shared.delegate as? AppDelegate
-
+    private let valueModel = ModelLocator.shared.valueModel
     @IBOutlet private weak var sliderValueLabel: UILabel!
     @IBOutlet private weak var changingSlider: UISlider!
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        changingSlider.value = delegate?.count ?? 0
-        sliderValueLabel.text = valueModel.floatToString(value: changingSlider.value)
+        changingSlider.value = valueModel.count
+        sliderValueLabel.text = valueModel.countText
     }
 
     @IBAction private func sliderAction(_ sender: Any) {
-        sliderValueLabel.text = valueModel.floatToString(value: changingSlider.value)
-        delegate?.count = changingSlider.value
+        sliderValueLabel.text = valueModel.countText
+        valueModel.count = changingSlider.value
     }
 }
